@@ -1,5 +1,4 @@
 <?php
-
 /**
  * WP_AJAX
  *
@@ -150,8 +149,9 @@ abstract class WP_AJAX {
 	}
 
 	/**
-	 * @param string|array $type The type of request you want to check. If an array
-	 *   this method will return true if the request matches any type.
+	 * @param string|array $type The type of request you want to
+	 *  check. If an array this method will return true if the
+	 *  request matches any type.
 	 * @return [type]              [description]
 	 */
 	public function requestType( $requestType = null ) {
